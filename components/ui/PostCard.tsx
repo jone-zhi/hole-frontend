@@ -32,10 +32,10 @@ const PostCard = ({ post }: PostCardProps) => {
       <div className="p-6">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
-            <a href={`/post/${post.id}`} className="hover:text-blue-600">
-              {post.title}
-            </a>
-          </h3>
+              <a href={`/post?id=${post.id}`} className="hover:text-blue-600">
+                {post.title}
+              </a>
+            </h3>
           <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-xs font-medium">
             {post.category}
           </span>

@@ -1,9 +1,9 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import Header from '../../../components/layout/Header';
-import { useAuth } from '../../../hooks/useAuth';
-import { useGithub } from '../../../hooks/useGithub';
+import Header from '../../components/layout/Header';
+import { useAuth } from '../../hooks/useAuth';
+import { useGithub } from '../../hooks/useGithub';
 
 export default function EditPost() {
   const searchParams = useSearchParams();

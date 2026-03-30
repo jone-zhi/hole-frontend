@@ -1,9 +1,9 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import Header from '../../../components/layout/Header';
-import { useGithub } from '../../../hooks/useGithub';
-import { useAuth } from '../../../hooks/useAuth';
+import Header from '../../components/layout/Header';
+import { useGithub } from '../../hooks/useGithub';
+import { useAuth } from '../../hooks/useAuth';
 
 export default function PostDetail() {
   const searchParams = useSearchParams();
